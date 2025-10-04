@@ -150,15 +150,19 @@ header {
 /* món 1 - mô tả bên phải */
 .menu-item:nth-child(1) {
   justify-content: flex-end;
+  /* align-items: flex-end; */
   text-align: right;
   padding-right: 5%;
+  /* padding-bottom: 5%; */
 }
 
 /* món 2 - mô tả bên trái */
 .menu-item:nth-child(2) {
   justify-content: flex-start;
+  /* align-items: flex-end; */
   text-align: left;
   padding-left: 5%;
+  /* padding-bottom: 5%; */
 }
 
 /* món 3 - mô tả bên phải */
