@@ -1,35 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drink with me</title>
+    <title>Coffee Vibe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1>Best Coffee</h1>
-        <h2>You want some?</h2>
-        <div>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Coffee Vibe</div>
             <ul>
-                <li>
-                    Americano<br>
-                    <img src="https://d1r9hss9q19p18.cloudfront.net/uploads/2016/04/hot-black-coffee-1680x1050.jpg" width="800" height="500" alt="Americano">
-                </li>
-                <li>
-                    Cappuccino<br>
-                    <img
-                        src="https://www.cuisinart.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-us-cuisinart-sfra-Library/default/dw30047d66/images/recipe-Images/cappuccino1-recipe.jpg?sw=1200&sh=1200&sm=fit" width="800" height="500" alt=""Cappuccino>
-                </li>
-                <li>
-                    Cold Brew<br>
-                    <img
-                        src="https://cdn.fastpixel.io/fp/ret_img+v_cd8e+w_1152+h_864+q_lossy+to_webp/spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/www.roastycoffee.com/wp-content/uploads/bb748e04-c8e7-4680-8906-e9c119449fd9.jpg" width="800" height="500" alt="Cold Brew">
-                </li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
-            You may also like<br>
-            <a href="https://www.folgerscoffee.com/coffee/articles/types-of-coffee">Another Types Of Coffee</a>
-        </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Coffee Vibe</h1>
+                <p>Experience the warmth of freshly brewed coffee</p>
+                <a href="menu" class="btn">Explore Menu</a>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <h3>Best Coffee</h3>
+            <div class="menu-list">
+                <div class="menu-item">
+                    <h3>Americano</h3>
+                    <img src="https://d1r9hss9q19p18.cloudfront.net/uploads/2016/04/hot-black-coffee-1680x1050.jpg" width="800" height="500" alt="Americano">
+                    <ul>
+                        <li>Rich and bold flavor</li>
+                        <li>Perfect morning boost</li>
+                        <li>Made with premium beans</li>
+                    </ul>
+                </div>
+                <div class="menu-item">
+                    <h3>Cappuccino</h3>
+                    <img src="https://www.cuisinart.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-us-cuisinart-sfra-Library/default/dw30047d66/images/recipe-Images/cappuccino1-recipe.jpg?sw=1200&sh=1200&sm=fit" width="800" height="500" alt="Cappuccino">
+                    <ul>
+                        <li>Classic Italian taste</li>
+                        <li>Perfect blend of espresso and foam</li>
+                        <li>Great for a cozy afternoon</li>
+                    </ul>
+                </div>
+                <div class="menu-item">
+                    <h3>Cold Brew</h3>
+                    <img src="https://cdn.fastpixel.io/fp/ret_img+v_cd8e+w_1152+h_864+q_lossy+to_webp/spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_webp,s_webp/www.roastycoffee.com/wp-content/uploads/bb748e04-c8e7-4680-8906-e9c119449fd9.jpg" width="800" height="500" alt="Cold Brew">
+                    <ul>
+                        <li>Smooth and refreshing</li>
+                        <li>Slow-brewed for hours</li>
+                        <li>Served chilled, perfect for summer</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="you-may-also-like">
+                <p>You may also like</p>
+                <a href="https://www.folgerscoffee.com/coffee/articles/types-of-coffee" target="_blank">
+                    More Types of Coffee →
+                </a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p style="max-width:700px;margin:0 auto;text-align:center;">
+                At Coffee Vibe, we believe coffee is more than a drink - it's a moment of comfort, a daily ritual, and a way to connect. Our beans are carefully sourced and our baristas pour love into every cup.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p style="text-align:center;">
+                Have questions or feedback? We'd love to hear from you. <br>
+                Email us at <a href="mailto:info@coffeevibe.com">info@coffeevibe.com</a>
+            </p>
+        </section>
     </main>
+    <footer>
+        <p>© 2025 Coffee Vibe. All rights reserved. | <a href="#hero">Back to top</a></p>
+    </footer>
 </body>
 </html>
